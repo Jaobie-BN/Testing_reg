@@ -133,7 +133,7 @@ const verifyRefreshToken = (req, res, next) => {
           .status(401)
           .send({ status: "error", message: "Incorrect Refresh Token!" });
       }
-
+      
       req.user = decoded;
       return next();
     }

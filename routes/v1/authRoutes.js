@@ -29,8 +29,8 @@ router.post("/register", registerRateLimiter, register);
 //? Login
 router.post("/login", loginRateLimiter, login);
 
-//? Logout
-router.post("/logout", loginRateLimiter, logout);
+  //? Logout
+  router.post("/logout", loginRateLimiter, logout);
 
 router.post("/refresh", verifyRefreshToken, refresh);
 
