@@ -3,5 +3,13 @@
         "activityBar.background": "#421E51",
         "titleBar.activeBackground": "#5C2A72",
         "titleBar.activeForeground": "#FCFAFD"
-    }
+    },
+    "cSpell.words": [
+        "superadmin",
+        "ตรวจสอบ"
+    ],
+    "cSpell.ignoreWords": [
+        "ในการใช้งานจริง",
+        "ในที่นี้ใช้ค่าตายตัว"
+    ]
 }
